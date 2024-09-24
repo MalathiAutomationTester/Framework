@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test" parallel="classes">
+	<parameter name="a" value="anandg"></parameter>
+	<parameter name="b" value="123@gmail.com"></parameter>
+	<parameter name="c" value="tiruneleveli"></parameter>
+	<parameter name="d" value="tiruneleveli"></parameter>
+    <classes>
+      <class name="com.test.Test"/>
+      <class name="com.test.ValidationOnCheckBox"/>
+      <class name="com.test.Test1"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
